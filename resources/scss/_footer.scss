@@ -1,0 +1,50 @@
+footer {
+    min-height: 100px;
+    background-color: $dark-grey;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+    }
+}
+
+// Footer button
+.footer-button button {
+    padding: 10px 10px;
+    background-color: transparent;
+    color: $white;
+    border: 2px solid $primary;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: inset 1px 0 10px $primary;
+    }
+}
+
+// Footer icons
+.footer-icons {
+    display: flex;
+
+    .footer-text {
+        display: flex;
+        align-items: center;
+        color: $primary;
+        font-weight: bold;
+        padding: 0 20px;
+        cursor: pointer;
+
+        &:hover {
+            text-shadow: 1px 0 10px $primary;
+        }
+    }
+
+    .footer-social li {
+        display: flex;
+
+        img {
+            padding: 0 5px;
+        }
+    }
+}
