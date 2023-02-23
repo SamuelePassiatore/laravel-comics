@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>laravel comics | Home</title>
+    <title>{{ env('APP_NAME') }} | Home</title>
 </head>
 
 <body>
     <header>
-        <a href="{{ url('/') }}"><img src="" alt=""></a>
+        <figure>
+            <a href="{{ url('/') }}"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo dc comics"></a>
+        </figure>
         <ul>
             <li><a href="{{ route('characters') }}">Characters</a></li>
             <li><a href="{{ route('comics') }}">Comics</a></li>
