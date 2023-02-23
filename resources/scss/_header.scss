@@ -10,6 +10,30 @@ header {
     }
 }
 
+// Header-top (out of the header)
+.header-top {
+    height: 25px;
+    background-color: $primary;
+
+    .header-top-content {
+        height: 100%;
+        display: flex;
+        font-size: 12px;
+        font-weight: bold;
+        color: $white;
+        align-items: center;
+        justify-content: flex-end;
+
+        .header-top-additional {
+            padding-left: 50px;
+
+            .triangle-down {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
 // Nav
 ul {
     display: flex;
@@ -25,14 +49,29 @@ ul {
             padding: 10px;
 
             &:hover {
-                color: dodgerblue;
+                color: $primary;
             }
 
             &.current {
-                color: dodgerblue;
-                border-bottom: 5px solid dodgerblue;
+                color: $primary;
+                border-bottom: 5px solid $primary;
                 padding-bottom: 37px;
             }
+        }
+    }
+}
+
+//Form
+.input-group {
+    border-bottom: 2px solid $primary;
+
+    input {
+        border: 0;
+        
+        &::placeholder{
+            position: relative;
+            left: 70%;
+            color: $dark-grey;
         }
     }
 }
