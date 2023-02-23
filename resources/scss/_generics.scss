@@ -1,0 +1,26 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Generics */
+  body {
+    min-height: 100vh;
+    font-family: $font;
+  }
+    
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
