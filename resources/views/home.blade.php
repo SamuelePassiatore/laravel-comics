@@ -43,13 +43,13 @@
         </ul>
         <div class="input-group">
             <form action="#">
-
                 <input type="text" placeholder="Search">
                 <i class="fa-solid fa-magnifying-glass"></i>
-
             </form>
         </div>
     </header>
+    <div class="jumbotron"></div>
+    <main></main>
 
     <footer>
         <div class="container">
