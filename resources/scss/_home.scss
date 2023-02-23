@@ -54,3 +54,37 @@
         }
     }
 }
+
+.main-home-bottom {
+    min-height: 120px;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: calc(100% / 5);
+
+        img {
+            width: 50px;
+            padding-right: 15px;
+        }
+
+        span {
+            color: white;
+            font-size: 13px;
+
+            &:hover {
+                text-shadow: 1px 0 10px white;
+            }
+        }
+    }
+}
