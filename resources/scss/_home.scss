@@ -1,12 +1,12 @@
 .main-home-top {
     min-height: 100px;
-    background-color: #1C1C1C;
+    background-color: $light-black;
     color: white;
     padding-bottom: 20px;
 
     h2 {
         display: inline-block;
-        background-color: dodgerblue;
+        background-color: $primary;
         padding: 5px 10px;
         font-size: 18px;
         text-transform: uppercase;
@@ -27,7 +27,7 @@
             cursor: pointer;
         
             &:hover {
-                box-shadow: inset 1px 0 10px white;
+                box-shadow: inset 1px 0 10px $white;
             }
         
             img {
@@ -48,7 +48,7 @@
 
         button {
             padding: 8px 30px;
-            background-color: dodgerblue;
+            background-color: $primary;
             border: transparent;
             color: white;
         }
@@ -57,7 +57,7 @@
 
 .main-home-bottom {
     min-height: 120px;
-    background-color: dodgerblue;
+    background-color: $primary;
     display: flex;
     align-items: center;
 
@@ -79,11 +79,11 @@
         }
 
         span {
-            color: white;
+            color: $white;
             font-size: 13px;
 
             &:hover {
-                text-shadow: 1px 0 10px white;
+                text-shadow: 1px 0 10px $white;
             }
         }
     }

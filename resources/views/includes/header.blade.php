@@ -16,9 +16,12 @@
     </figure>
     <ul>
         @foreach ($links as $link)
-            <li><a href="{{ route($link['route_name']) }}">{{ $link['text'] }}</a></li>
+            <li>
+                <a href="{{ route($link['route_name']) }}"
+                    class="{{ request()->routeIs($link['route_name']) ? 'active' : '' }}">{{ $link['text'] }}
+                </a>
+            </li>
         @endforeach
-        <li><a href="{{ route('shop') }}">Shop<span class="triangle-down">&blacktriangledown;</span></a></li>
     </ul>
     <div class="input-group">
         <form action="#">

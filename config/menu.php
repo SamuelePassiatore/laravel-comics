@@ -9,5 +9,5 @@ return [
     ['text' => 'Videos', 'route_name' => 'videos'],
     ['text' => 'Fans', 'route_name' => 'fans'],
     ['text' => 'News', 'route_name' => 'news'],
-    //['text' => 'Shop', 'route_name' => 'shop'],
+    ['text' => 'Shop', 'route_name' => 'shop'],
 ];
