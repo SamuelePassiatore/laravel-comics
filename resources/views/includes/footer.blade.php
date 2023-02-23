@@ -1,3 +1,52 @@
+<div class="footer-top">
+    <div class="container">
+        <div class="footer-list">
+            <ul>
+                <li>
+                    <a href="#" class="title-list">DC COMICS</a>
+                    <a href="#">Characters</a>
+                    <a href="#">Comics</a>
+                    <a href="#">Movie</a>
+                    <a href="#">TV</a>
+                    <a href="#">Games</a>
+                    <a href="#">Videos</a>
+                    <a href="#">News</a>
+                    <a href="#" class="title-list">SHOP</a>
+                    <a href="#">Shop DC</a>
+                    <a href="#">Shop DC Collections</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#" class="title-list">DC</a>
+                    <a href="#">Terms of use</a>
+                    <a href="#">Privacy policy - New</a>
+                    <a href="#">Ad choices</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Subscriptions</a>
+                    <a href="#">Talent Workshop</a>
+                    <a href="#">CPSC Certificates</a>
+                    <a href="#">Ratings</a>
+                    <a href="#">Shop Help</a>
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#" class="title-list">SITES</a>
+                    <a href="#">DC</a>
+                    <a href="#">MAD Magazine</a>
+                    <a href="#">DC Kids</a>
+                    <a href="#">DC Universe</a>
+                    <a href="#">DC Power Visa</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-img"></div>
+    </div>
+</div>
+
 <footer>
     <div class="container">
         <!-- Footer button -->
