@@ -1,3 +1,7 @@
+@php
+    $links = config('menu');
+@endphp
+
 <div class="header-top">
     <div class="container header-top-content">
         <div class="header-top-power">DC POWER℠ VISA®</div>
@@ -11,15 +15,9 @@
         <a href="{{ url('/') }}"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo dc comics"></a>
     </figure>
     <ul>
-        <li><a href="{{ route('characters') }}">Characters</a></li>
-        <li><a href="{{ route('comics') }}">Comics</a></li>
-        <li><a href="{{ route('movies') }}">Movies</a></li>
-        <li><a href="{{ route('tv') }}">Tv</a></li>
-        <li><a href="{{ route('games') }}">Games</a></li>
-        <li><a href="{{ route('collectibles') }}">Collectibles</a></li>
-        <li><a href="{{ route('videos') }}">Videos</a></li>
-        <li><a href="{{ route('fans') }}">Fans</a></li>
-        <li><a href="{{ route('news') }}">News</a></li>
+        @foreach ($links as $link)
+            <li><a href="{{ route($link['route_name']) }}">{{ $link['text'] }}</a></li>
+        @endforeach
         <li><a href="{{ route('shop') }}">Shop<span class="triangle-down">&blacktriangledown;</span></a></li>
     </ul>
     <div class="input-group">
