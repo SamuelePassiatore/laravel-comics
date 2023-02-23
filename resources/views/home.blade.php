@@ -12,9 +12,10 @@
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <figure>
-            <a href="{{ url('/') }}"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo dc comics"></a>
+            <a href="{{ url('/') }}"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}"
+                    alt="Logo dc comics"></a>
         </figure>
         <ul>
             <li><a href="{{ route('characters') }}">Characters</a></li>

@@ -1,0 +1,38 @@
+// Header
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+
+    img {
+        height: 70px;
+    }
+}
+
+// Nav
+ul {
+    display: flex;
+    padding: 0;
+
+    li {
+        text-transform: uppercase;
+        font-weight: bold;
+
+        a {
+            color: $dark-grey;
+            font-size: 11px;
+            padding: 10px;
+
+            &:hover {
+                color: dodgerblue;
+            }
+
+            &.current {
+                color: dodgerblue;
+                border-bottom: 5px solid dodgerblue;
+                padding-bottom: 37px;
+            }
+        }
+    }
+}
