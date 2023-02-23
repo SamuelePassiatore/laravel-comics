@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
     <title>{{ env('APP_NAME') }} | Home</title>
+
+    @vite('resources/js/app.js')
 </head>
 
 <body>
