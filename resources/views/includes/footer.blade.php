@@ -4,15 +4,15 @@
             <div class="footer-list">
                 <ul>
                     <li>
-                        <a href="#" class="title-list">DC COMICS</a>
-                        <a href="#">Characters</a>
-                        <a href="#">Comics</a>
-                        <a href="#">Movie</a>
-                        <a href="#">TV</a>
-                        <a href="#">Games</a>
-                        <a href="#">Videos</a>
-                        <a href="#">News</a>
-                        <a href="#" class="title-list">SHOP</a>
+                        <a href="{{ url('/') }}" class="title-list">DC COMICS</a>
+                        <a href="{{ route('characters') }}">Characters</a>
+                        <a href="{{ route('comics') }}">Comics</a>
+                        <a href="{{ route('movies') }}">Movie</a>
+                        <a href="{{ route('tv') }}">TV</a>
+                        <a href="{{ route('games') }}">Games</a>
+                        <a href="{{ route('videos') }}">Videos</a>
+                        <a href="{{ route('news') }}">News</a>
+                        <a href="{{ route('shop') }}" class="title-list">SHOP</a>
                         <a href="#">Shop DC</a>
                         <a href="#">Shop DC Collections</a>
                     </li>
