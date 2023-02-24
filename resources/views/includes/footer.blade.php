@@ -67,19 +67,19 @@
                 <ul>
                     <!-- Images -->
                     <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/" target="_blank">
                             <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="facebook">
                         </a>
-                        <a href="#">
+                        <a href="https://twitter.com/" target="_blank">
                             <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="twitter">
                         </a>
-                        <a href="#">
+                        <a href="https://www.youtube.com/" target="_blank">
                             <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="you-tube">
                         </a>
-                        <a href="#">
+                        <a href="https://www.pinterest.it/" target="_blank">
                             <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="pinterest">
                         </a>
-                        <a href="#">
+                        <a href="https://www.google.com/maps" target="_blank">
                             <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="maps">
                         </a>
                     </li>
